@@ -11,4 +11,15 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
+# Example 1: Bug Report
+ - "Discriibe the Bug"
+ - "Steps to Reproduce"
+ - "Expected Behavior"
+ - "Current Behavior"
+
+# Example 2: Feature Requests
+ - "Use Case"
+ - "Expected Behavior" 
+ - "Additional Context" 
+
       

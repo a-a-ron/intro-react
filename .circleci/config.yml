@@ -12,4 +12,13 @@ workflows:
     jobs:
       - welcome/run
   # Build 
-    
+  steps:
+      - checkout/feature
+      - run: echo "this is the build feature"
+# Orchestrate our job run sequence
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - test
